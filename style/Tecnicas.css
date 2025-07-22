@@ -9,7 +9,7 @@
 
 body {
     background: url('../img/foto.jpg') center center / cover no-repeat;
-    height: 100vh;
+    height: 272vh;
     position: relative;
     overflow-x: hidden;
 }
@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
     padding: 20px 10%;
 }
 
@@ -42,7 +42,7 @@ header h1 {
 .header-logo>h1>a:hover {
     color: rgb(255, 166, 236);
     transition: 0.2 ease-in-out;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .nav {
@@ -52,15 +52,15 @@ header h1 {
 
 .nav>li>a {
     margin-left: 15px;
-    transition:  0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     color: black;
     text-decoration: none;
 }
 
-.nav>li>a:hover{
+.nav>li>a:hover {
     color: rgb(255, 166, 236);
     transition: 0.2 ease-in-out;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .logo-principal {
@@ -90,13 +90,13 @@ header h1 {
 }
 
 .insta-btn {
-    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af); 
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
     border: none;
     color: white;
     width: 120px;
     height: 40px;
     border-radius: 6px;
-    font-weight: bold;    
+    font-weight: bold;
     transition: all 0.3s ease;
 }
 
@@ -107,13 +107,13 @@ header h1 {
 }
 
 .wp-btn {
-    background: linear-gradient(45deg, #25D366, #128C7E); 
+    background: linear-gradient(45deg, #25D366, #128C7E);
     border: none;
     color: white;
     width: 120px;
     height: 40px;
     border-radius: 6px;
-    font-weight: bold;    
+    font-weight: bold;
     transition: all 0.3s ease;
 }
 
@@ -125,4 +125,228 @@ header h1 {
 
 a {
     text-decoration: none;
+}
+
+.tecnicas-browlamination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+  border-radius: 30px;
+}
+
+.titulo-tecnicas {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+  border-bottom: 3px solid #ffb6c1;
+  text-align: center;  
+}
+
+.conteudo-brow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.modelo-imagem {
+  height: 450px;
+  width: 400px;
+  border-radius: 35px;
+}
+
+.text-browlamination {
+  max-width: 550px;
+  font-family: 'Poppins', sans-serif;
+  color: #4b2c33;
+}
+
+.text-browlamination h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #f48fb1;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.text-browlamination p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.detalhes-browlamination h2 {
+  font-size: 1.3rem;
+  color: #ad1457;
+  margin-bottom: 10px;
+}
+
+.detalhes-browlamination ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.detalhes-browlamination li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+
+.tecnicas-henna {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px 40px;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+
+.text-henna {
+  max-width: 550px;
+  font-family: 'Poppins', sans-serif;
+  color: #4b2c33;
+}
+
+.text-henna h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ffb6c1;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.text-henna p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.detalhes-henna h2 {
+  font-size: 1.3rem;
+  color: #ad1457;
+  margin-bottom: 10px;
+}
+
+.detalhes-henna ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.detalhes-henna li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.modelo-imagem {
+  height: 450px;
+  width: 400px;
+  border-radius: 35px;
+}
+
+.tecnicas-micropigmentacao {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px 40px;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+
+.text-micropigmentacao {
+  max-width: 550px;
+  font-family: 'Poppins', sans-serif;
+  color: #4b2c33;
+}
+
+.text-micropigmentacao h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #f48fb1;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.text-micropigmentacao p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.detalhes-micropigmentacao h2 {
+  font-size: 1.3rem;
+  color: #ad1457;
+  margin-bottom: 10px;
+}
+
+.detalhes-micropigmentacao ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.detalhes-micropigmentacao li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.modelo-imagem {
+  height: 450px;
+  width: 400px;
+  border-radius: 35px;
+}
+
+.tecnicas-cilios {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  padding: 60px 40px;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+
+.text-cilios {
+  max-width: 550px;
+  font-family: 'Poppins', sans-serif;
+  color: #4b2c33;
+}
+
+.text-cilios h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #ffb6c1;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.text-cilios p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.tipos-volume h2 {
+  font-size: 1.3rem;
+  color: #ad1457;
+  margin-bottom: 10px;
+}
+
+.tipos-volume ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.tipos-volume li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.modelo-imagem {
+  height: 450px;
+  width: 400px;
+  border-radius: 35px;
 }
