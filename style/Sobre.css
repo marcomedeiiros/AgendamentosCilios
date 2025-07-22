@@ -9,7 +9,7 @@
 
 body {
     background: url('../img/foto.jpg') center center / cover no-repeat;
-    height: 100vh;
+    height: 320vh;
     position: relative;
     overflow-x: hidden;
 }
@@ -17,7 +17,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
     padding: 20px 10%;
 }
 
@@ -42,7 +42,7 @@ header h1 {
 .header-logo>h1>a:hover {
     color: rgb(255, 166, 236);
     transition: 0.2 ease-in-out;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .nav {
@@ -52,15 +52,15 @@ header h1 {
 
 .nav>li>a {
     margin-left: 15px;
-    transition:  0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     color: black;
     text-decoration: none;
 }
 
-.nav>li>a:hover{
+.nav>li>a:hover {
     color: rgb(255, 166, 236);
     transition: 0.2 ease-in-out;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .logo-principal {
@@ -96,7 +96,7 @@ header h1 {
     width: 120px;
     height: 40px;
     border-radius: 6px;
-    font-weight: bold;    
+    font-weight: bold;
     transition: all 0.3s ease;
 }
 
@@ -107,13 +107,13 @@ header h1 {
 }
 
 .wp-btn {
-    background: linear-gradient(45deg, #25D366, #128C7E); 
+    background: linear-gradient(45deg, #25D366, #128C7E);
     border: none;
     color: white;
     width: 120px;
     height: 40px;
     border-radius: 6px;
-    font-weight: bold;    
+    font-weight: bold;
     transition: all 0.3s ease;
 }
 
@@ -126,3 +126,214 @@ header h1 {
 a {
     text-decoration: none;
 }
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.text-sobre {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.text-sobre p {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.modelo-imagem {
+    height: 450px;
+    width: 400px;
+    border-radius: 35px;
+}
+
+.atendimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.atendimento-text {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.atendimento-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.formacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.formacao-text {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.formacao-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card_wrapper {
+	padding: 80px 0;
+	text-align: center;
+}
+
+.container {
+    max-width: 1085px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.card_wrapper h1 {
+	font-size: 60px;
+	font-weight: 700;
+	padding-bottom: 30px;
+	color: #000000;
+}
+
+.mt_30 {
+	margin-top: 30px;
+}
+
+@property --gradient-angle {
+	syntax: "<angle>";
+	initial-value: 0turn;
+	inherits: false;
+}
+
+
+.card_wrapper .card_item {
+	height: 100%;
+	animation: 2s gradient-angle infinite linear;
+	border: 2px solid transparent;
+	background-image: linear-gradient(#000000, #55434b), conic-gradient(
+		from var(--gradient-angle), 
+		#4ca1af 0%, 
+		#c4e0e5 37%,
+		#4b79a1 30%,
+		#283e51 33%,
+		#834d9b 40%,
+		#d04ed6 50%,
+		#4da0b0 77%,
+		#d39d38 80%,
+		#6a3093 83%,
+		#a044ff 90%
+	);
+	background-clip: padding-box, border-box;
+	background-origin: padding-box, border-box;
+	padding: 60px 20px;
+	border-radius: 20px;
+	place-content: center;
+	place-items: center;
+	display: block;
+	transition: 0.4s all ease-in-out;
+}
+
+.card_wrapper .card_item:hover {
+	transform: scale(1.05);
+}
+
+.card_wrapper .card_item i {
+	font-size: 40px;
+}
+
+.card_wrapper .card_item h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: white;
+}
+
+.card_wrapper .card_item p {
+	text-align: left;
+	font-size: 13px;
+    color: white;
+}
+
+@keyframes gradient-angle {
+	to {
+		--gradient-angle: 1turn;
+	}
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col_4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333333333333%;
+    flex: 0 0 33.33333333333333%;
+    max-width: 33.33333333333333%;
+}
+
+@media (max-width: 992px) {
+    .col_4 {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .col_4 {
+        max-width: 100%;
+    }
+}
+
+.agende-atendimento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.text-agende {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.text-agende p{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.foto-com-texto {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+  }
